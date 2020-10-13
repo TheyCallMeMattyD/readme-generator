@@ -19,25 +19,21 @@ function promptUser() {
             type: "input",
             message: "Enter your installation instructions:",
             name: "Installation"
-
         },
         {
             type: "input",
             message: "Enter your usage information:",
             name: "Usage"
-
         },
         {
             type: "input",
             message: "Enter your contribution guidelines:",
             name: "Contributing"
-
         },
         {
             type: "input",
             message: "Enter your test instructions:",
             name: "Tests"
-
         },
         {
             type: "list",
@@ -53,13 +49,11 @@ function promptUser() {
             type: "input",
             message: "What is your GitHub username?",
             name: "GitHub"
-
         },
         {
             type: "input",
             message: "What is your email address?",
             name: "Email"
-
         }
 
     ]);
