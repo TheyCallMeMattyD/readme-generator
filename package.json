@@ -1,0 +1,24 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command-line tool using npm and node.js to create a custom readMe.md file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheyCallMeMattyD/readme-generator.git"
+  },
+  "keywords": [
+    "readMe",
+    "npm",
+    "nodejs"
+  ],
+  "author": "Matthew Daniels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheyCallMeMattyD/readme-generator/issues"
+  },
+  "homepage": "https://github.com/TheyCallMeMattyD/readme-generator#readme"
+}
