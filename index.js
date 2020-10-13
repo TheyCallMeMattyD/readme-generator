@@ -12,27 +12,27 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "Enter your project description:",
+            message: "Enter a brief product description:",
             name: "Description"
         },
         {
             type: "input",
-            message: "Enter your installation instructions:",
+            message: "Enter the installation instructions:",
             name: "Installation"
         },
         {
             type: "input",
-            message: "Enter your usage information:",
+            message: "Enter usage information:",
             name: "Usage"
         },
         {
             type: "input",
-            message: "Enter your contribution guidelines:",
+            message: "Enter contribution guidelines:",
             name: "Contributing"
         },
         {
             type: "input",
-            message: "Enter your test instructions:",
+            message: "Enter testing instructions:",
             name: "Tests"
         },
         {
