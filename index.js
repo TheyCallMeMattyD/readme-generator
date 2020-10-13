@@ -55,7 +55,6 @@ function promptUser() {
             message: "What is your email address?",
             name: "Email"
         }
-
     ]);
 }
 
@@ -103,7 +102,7 @@ promptUser()
         return writeFileAsync("generated-README.md", readMe);
     })
     .then(function() {
-        console.log("Successfully wrote to generated-README.md");
+        console.log("Successfully created generated-README.md");
     })
     .catch(function(err) {
         console.log(err)
