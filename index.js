@@ -20,11 +20,6 @@ function promptUser() {
             message: "Enter the installation instructions:",
             name: "Installation"
         },
-        // {
-        //     type: "input",
-        //     message: "Enter usage information:",
-        //     name: "Usage"
-        // },
         {
             type: "input",
             message: "Enter contribution guidelines:",
