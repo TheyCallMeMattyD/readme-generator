@@ -46,7 +46,9 @@ function generateReadMe(answers) {
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) &nbsp;
 
 # ${answers.Title}
+---
 ## Description
+---
 >${answers.Description}
   
 ## Table of Contents
@@ -65,7 +67,7 @@ function generateReadMe(answers) {
 >3. To run the generator, enter 'node index.js' ... then just start answering the questions!   
   
 ## Usage
->Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>
+Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>
 ![Usage Screenshot](img/generator1.png)  
 
 ## License
