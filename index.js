@@ -84,8 +84,11 @@ function generateReadMe(answers) {
 >Please make sure to update tests as appropriate.
 
 ## Tests
->Here's a screenshot GIF of the generator being executed:
+>Here's a screenshot GIF of the generator being executed:  
 >![Screenshot GIF](img/screencast.gif)
+
+>And here's the results!
+>![Screenshot GIF](img/screencast1.gif)
   
 ## Questions
 >Please direct all questions to:
