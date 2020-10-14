@@ -75,7 +75,8 @@ function generateReadMe(answers) {
 ![Usage Screenshot](img/generator1.png)
 
   
-## License [![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-blue.svg)](https://opensource.org/licenses/${answers.License})
+## License
+[![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-blue.svg)](https://opensource.org/licenses/${answers.License})
 >This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
   
 ## Contributing
@@ -86,7 +87,7 @@ function generateReadMe(answers) {
 >Here's a screenshot GIF of the generator being executed:
 >![Screenshot GIF](img/screencast.gif)
   
-## Questions?
+## Questions
 >Please direct all questions to:
 ${answers.Email}<br/>
 Check out my [GitHub Profile]<br/>(https://github.com/${answers.GitHub}) 
