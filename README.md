@@ -4,9 +4,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) &nbsp;
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TheyCallMeMattyD/readme-generator?style=for-the-badge)  
 
-# ReadMe Generator
+# ReadME Generator
 ## Description
->A command-line tool to create a readMe.md for your repository.
+>A command-line tool to create a readMe.md file for your repository
   
 ## Table of Contents
 >1. [Title](#Title)
@@ -28,22 +28,19 @@
 ![Usage Screenshot](img/generator1.png)  
 
 ## License
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPLv3)
->This application is covered under the [GPLv3 License](https://opensource.org/licenses/GPLv3)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+>This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
   
 ## Contributing
 >Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
 >Please make sure to update tests as appropriate.
 
 ## Tests
->Here's a screenshot GIF of the generator being executed:  
->![Screenshot GIF](img/screencast.gif)
-
->And here's the results!
->![Screenshot GIF](img/screencast1.gif)
+>### Here's a screenshot GIF of the generator being executed:  
+>![Screenshot GIF](img/screencast.gif)  
   
 ## Questions
 >Please direct all questions to:
-themattyd@outlook.com<br/>
+TheMattyD@outlook.com<br/>
 Check out my [GitHub Profile]<br/>(https://github.com/TheyCallMeMattyD) 
     
