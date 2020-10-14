@@ -17,11 +17,6 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "Enter the installation instructions:",
-            name: "Installation"
-        },
-        {
-            type: "input",
             message: "Enter contribution guidelines:",
             name: "Contributing"
         },
@@ -76,7 +71,9 @@ function generateReadMe(answers) {
 8. [Questions?](#Questions?)
   
 ## Installation
->${answers.Installation}
+>1. Be sure you've installed npm (node project manager) and node.js on your system.  
+2. On your terminal command line, enter 'npm i inquirer'. This will ensure the correct node_module is installed. 
+3. To run the generator, enter 'node index.js' ... then just start answering the questions!   
   
 ## Usage
 >Simply answer each question as they appear and press 'Enter' to proceed to the next question.
