@@ -73,7 +73,7 @@ function generateReadMe(answers) {
 ## Usage
 >Simply answer each question as they appear and press 'Enter' to proceed to the next question.  
 ![Usage Screenshot](img/generator1.png)
-!(<iframe src="null" width="640" height="480"></iframe>)
+
   
 ## License [![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-blue.svg)](https://opensource.org/licenses/${answers.License})
 >This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
