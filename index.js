@@ -16,11 +16,6 @@ function promptUser() {
             name: "Description"
         },
         {
-            type: "input",
-            message: "Enter testing instructions:",
-            name: "Tests"
-        },
-        {
             type: "list",
             message: "Choose a license for your application:",
             name: "License",
