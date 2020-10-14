@@ -6,55 +6,55 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
     return inquirer.prompt([{
-            type: "input",
-            message: "Enter your project title:",
-            name: "Title"
-        },
-        {
-            type: "input",
-            message: "Enter a brief product description:",
-            name: "Description"
-        },
-        {
-            type: "input",
-            message: "Enter the installation instructions:",
-            name: "Installation"
-        },
-        {
-            type: "input",
-            message: "Enter usage information:",
-            name: "Usage"
-        },
-        {
-            type: "input",
-            message: "Enter contribution guidelines:",
-            name: "Contributing"
-        },
-        {
-            type: "input",
-            message: "Enter testing instructions:",
-            name: "Tests"
-        },
-        {
-            type: "list",
-            message: "Choose a license for your application:",
-            name: "License",
-            choices: [
-                "ISC",
-                "MIT",
-                "Apache2.0"
-            ]
-        },
-        {
-            type: "input",
-            message: "What is your GitHub username?",
-            name: "GitHub"
-        },
-        {
-            type: "input",
-            message: "What is your email address?",
-            name: "Email"
-        }
+        type: "input",
+        message: "Enter your project title:",
+        name: "Title"
+    },
+    {
+        type: "input",
+        message: "Enter a brief project description:",
+        name: "Description"
+    },
+    {
+        type: "input",
+        message: "Enter the installation instructions:",
+        name: "Installation"
+    },
+    {
+        type: "input",
+        message: "Enter usage information:",
+        name: "Usage"
+    },
+    {
+        type: "input",
+        message: "Enter contribution guidelines:",
+        name: "Contributing"
+    },
+    {
+        type: "input",
+        message: "Enter testing instructions:",
+        name: "Tests"
+    },
+    {
+        type: "list",
+        message: "Choose a license for your application:",
+        name: "License",
+        choices: [
+            "GPLv3",
+            "MIT",
+            "Apache2.0"
+        ]
+    },
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "GitHub"
+    },
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "Email"
+    }
     ]);
 }
 
@@ -90,20 +90,20 @@ ${answers.Contributing}
 ${answers.Tests}
   
 ## Questions?
-Email me at ${answers.Email}
+Please direct all questions to:ß ${answers.Email}
 Check out my [GitHub Profile](https://github.com/${answers.GitHub}) 
     `;
 }
 
 promptUser()
-    .then(function(answers) {
+    .then(function (answers) {
         const readMe = generateReadMe(answers);
 
         return writeFileAsync("generated-README.md", readMe);
     })
-    .then(function() {
+    .then(function () {
         console.log("Successfully created generated-README.md");
     })
-    .catch(function(err) {
+    .catch(function (err) {
         console.log(err)
     });
