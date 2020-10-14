@@ -20,11 +20,11 @@ function promptUser() {
             message: "Enter the installation instructions:",
             name: "Installation"
         },
-        {
-            type: "input",
-            message: "Enter usage information:",
-            name: "Usage"
-        },
+        // {
+        //     type: "input",
+        //     message: "Enter usage information:",
+        //     name: "Usage"
+        // },
         {
             type: "input",
             message: "Enter contribution guidelines:",
@@ -61,8 +61,8 @@ function promptUser() {
 function generateReadMe(answers) {
 
     return `
-[![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp; &nbsp;
-[![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/stargazers) &nbsp; &nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/stargazers) &nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge)
 
 
@@ -84,7 +84,8 @@ function generateReadMe(answers) {
 >${answers.Installation}
   
 ## Usage
->${answers.Usage}
+>Simply answer each question as they appear and press 'Enter' to proceed to the next question.
+![Usage Screenshot](img/generator1.png)
   
 ## License [![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-blue.svg)](https://opensource.org/licenses/${answers.License})
 >This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
