@@ -17,11 +17,6 @@ function promptUser() {
         },
         {
             type: "input",
-            message: "Enter contribution guidelines:",
-            name: "Contributing"
-        },
-        {
-            type: "input",
             message: "Enter testing instructions:",
             name: "Tests"
         },
@@ -83,7 +78,9 @@ function generateReadMe(answers) {
 >This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
   
 ## Contributing
->${answers.Contributing}
+>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
+
+>Please make sure to update tests as appropriate.
 
 ## Tests
 >${answers.Tests}
