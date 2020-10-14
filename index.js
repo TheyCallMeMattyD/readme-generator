@@ -44,8 +44,7 @@ function generateReadMe(answers) {
 [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/stargazers) &nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) &nbsp;
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/theycallmemattyd/readme-generator?style=for-the-badge) 
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/theycallmemattyd/readme-generator?style=for-the-badge">
+
 # ${answers.Title}
 ## Description
 >${answers.Description}
