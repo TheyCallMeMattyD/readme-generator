@@ -2,11 +2,11 @@
 [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/stargazers) &nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) &nbsp;
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TheyCallMeMattyD/readme-generator?style=for-the-badge)  
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/theycallmemattyd/readme-generator?style=for-the-badge) 
 
 # ReadME Generator
 ## Description
->A command-line tool to create a readMe.md file for your repository
+>A command-line tool that creates a readME.md file for this repository.
   
 ## Table of Contents
 >1. [Title](#Title)
@@ -24,7 +24,7 @@
 >3. To run the generator, enter 'node index.js' ... then just start answering the questions!   
   
 ## Usage
->Simply answer each question as they appear and press 'Enter' to proceed to the next question.  
+>Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/>
 ![Usage Screenshot](img/generator1.png)  
 
 ## License
@@ -32,7 +32,7 @@
 >This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
   
 ## Contributing
->Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
+>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br/>
 >Please make sure to update tests as appropriate.
 
 ## Tests
@@ -42,5 +42,5 @@
 ## Questions
 >Please direct all questions to:
 TheMattyD@outlook.com<br/>
-Check out my [GitHub Profile]<br/>(https://github.com/TheyCallMeMattyD) 
+Check out my GitHub Profile @ https://github.com/TheyCallMeMattyD  
     
