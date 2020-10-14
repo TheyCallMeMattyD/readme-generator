@@ -65,7 +65,7 @@ function generateReadMe(answers) {
 >3. To run the generator, enter 'node index.js' ... then just start answering the questions!   
   
 ## Usage
->Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/>
+>Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>
 ![Usage Screenshot](img/generator1.png)  
 
 ## License
@@ -73,7 +73,7 @@ function generateReadMe(answers) {
 >This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
   
 ## Contributing
->Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br/>
+>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br/><br/>
 >Please make sure to update tests as appropriate.
 
 ## Tests
