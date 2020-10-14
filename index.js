@@ -84,7 +84,8 @@ function generateReadMe(answers) {
 >Please make sure to update tests as appropriate.
 
 ## Tests
->${answers.Tests}
+>
+![Screenshot GIF](img/screencast.gif)
   
 ## Questions?
 >Please direct all questions to:
