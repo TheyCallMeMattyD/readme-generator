@@ -1,11 +1,11 @@
 
-[![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp;
+<p align="center"> [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/readme-generator?style=for-the-badge)](https://github.com/TheyCallMeMattyD/readme-generator/stargazers) &nbsp;
-![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) &nbsp;
+![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/readme-generator?style=for-the-badge) </p>
 
-# readME Generator
+# lkjlkj
 ## Description
->A command-line tool that creates a readME.md for this repository.
+>lkjlkj
   
 ## Table of Contents
 >1. [Title](#Title)
@@ -27,8 +27,8 @@
 >![Usage Screenshot](img/generator1.png)  
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
->This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPLv3)
+>This application is covered under the [GPLv3 License](https://opensource.org/licenses/GPLv3)
   
 ## Contributing
 >Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br/><br/>
@@ -40,6 +40,6 @@
   
 ## Questions
 >Please direct all questions to:
-TheMattyD@outlook.com<br/>
-Check out my GitHub Profile @ https://github.com/TheyCallMeMattyD  
+lkjlkj<br/>
+Check out my GitHub Profile @ https://github.com/lkjlkj  
     
